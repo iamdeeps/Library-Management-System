@@ -1,0 +1,32 @@
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+ 
+            <div class="row">
+                <div class="col-sm-5">
+                    <label>Book Name</label>
+                    <input  [(ngModel)]="bname" type="text" id="BName" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-5 form-group">
+                        <label  >Author Name</label>
+                        <input [(ngModel)]="aname" type="text" id="AName" class="form-control">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-5 form-group">
+                        <label >Description</label>
+                        <input [(ngModel)]="desc"  type="text" id="AName" class="form-control">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col-xs-12">
+                        <button class="btn btn-success" (click)="addBooks()">Add</button>
+                       
+                        <button class="btn btn-primary"  (click)="clearBooks()">Clear</button>
+                    </div>
+                </div>
+   
+    </div>
+</div>
